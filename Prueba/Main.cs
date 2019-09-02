@@ -22,5 +22,11 @@ namespace Prueba
             lstCustomer client = new lstCustomer();
             client.ShowDialog();
         }
+
+        private void ListadoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            lstProducts products = new lstProducts();
+            products.ShowDialog();
+        }
     }
 }

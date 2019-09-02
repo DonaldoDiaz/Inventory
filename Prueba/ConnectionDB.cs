@@ -16,7 +16,7 @@ namespace Prueba
         public ConnectionDB()
         {
             string appPath = Path.GetDirectoryName(Application.ExecutablePath);
-            string connString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Emiliano\Desktop\Prueba\Prueba\inventario.mdf;Integrated Security=True";
+            string connString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Proyectos\Inventory\Prueba\inventario.mdf;Integrated Security=True";
             //string connString = @"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename = " + appPath + @"\inventario.mdf; Integrated Security = True";
             this.conn = new SqlConnection(connString);
         }

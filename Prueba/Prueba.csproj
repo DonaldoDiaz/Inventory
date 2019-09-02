@@ -79,6 +79,12 @@
     <Compile Include="lstCustomer.Designer.cs">
       <DependentUpon>lstCustomer.cs</DependentUpon>
     </Compile>
+    <Compile Include="lstProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lstProducts.Designer.cs">
+      <DependentUpon>lstProducts.cs</DependentUpon>
+    </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,6 +104,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="lstCustomer.resx">
       <DependentUpon>lstCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lstProducts.resx">
+      <DependentUpon>lstProducts.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
